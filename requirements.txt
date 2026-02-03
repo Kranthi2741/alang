@@ -1,0 +1,12 @@
+# Core dependencies
+textual>=0.47.0
+google-genai>=0.3.0
+python-dotenv>=1.0.0
+
+# File operations and utilities
+rich>=13.0.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
