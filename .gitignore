@@ -103,12 +103,10 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Spyder project settings
 .spyderproject
@@ -149,3 +147,11 @@ logs/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# API keys and sensitive data
+config.json
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
